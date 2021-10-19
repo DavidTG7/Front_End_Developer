@@ -9,12 +9,42 @@
     <form>
       <label for="username">
         Username:
+    <!--
+        There are several different type values that can be used, including:
+
+        text: for plain text
+        password: to obscure a password input field
+        search: to indicate the text field is used for searching a page/multiple pages
+        url: validates input as a URL address
+        tel: for inputting phone numbers
+        email: validates input as an email address
+    -->
         <input type="text" id="firstTextInput" name="firstTextInput">
-    </label>
-    <label for="password">
-      Password:
-      <input type="password" id="password" name="password">
-    </label>
+      </label>
+      <label for="password">
+        Password:
+        <input type="password" id="password" name="password">
+      </label>
+      <!--input with multiple line text (by pressing return) <textearea>-->
+      <label for="multiLineInput">
+        <p>This is an input element that can include new lines:</p>
+        <textarea cols="50" rows="5" id="multiLineInput"></textarea>
+      </label>
+      <!--
+        Creating a <buttom>
+
+        <button> elements are simple to define, and have three different type values:
+        submit: submits form data to a server
+        reset: resets all the data in the current form
+        button: no default behavior. Useful when we begin our discussion of Javascript.
+      -->
+      <p>Creating a buttom:</p>
+      <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+      <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+      <!-- This button will submit the form, causing page to redirect -->
+      <button type="submit">Submit Name</button>
     </form>
   </body>
 </html>
