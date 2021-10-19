@@ -78,7 +78,44 @@
             <option>Option 6</option>
           </optgroup>
         </select>
-      </label>      
+      </label>
+      <!--
+        The <input> element has other type values that accept inputs other than text. 
+        For instance, radio buttons can be used to create a list of options where you only want one option selected:
+
+        To group the radio buttons into one selection, each <input> element’s name attribute must have the same value. 
+        The optional checked attribute will select one of the radio buttons when the page loads.
+      -->
+      <h3>What time is best to give you a call?</h3>
+      <label for="morning">
+        Morning
+        <input type="radio" id="morning" name="callTime" checked>
+      </label>
+      <label for="afternoon">
+        Afternoon
+        <input type="radio" id="afternoon" name="callTime">
+      </label>
+      <label for="evening">
+        Evening
+        <input checked type="radio" id="evening" name="callTime">
+      </label>
+      <!--
+        If you want to create a list where the user can select multiple options, you can use checkboxes. 
+        A checkbox can be specified by using an <input> element with a type value checkbox:
+      -->
+      <h3>Select all the times that you are available:</h3>
+      <label for="morning">
+        Morning
+        <input type="checkbox" id="morning" name="callTime" checked>
+      </label>
+      <label for="afternoon">
+        Afternoon
+        <input type="checkbox" id="afternoon" name="callTime">
+      </label>
+      <label for="evening">
+        Evening
+        <input type="checkbox" id="evening" name="callTime">
+      </label>     
     </form>
   </body>
 </html>
