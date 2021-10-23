@@ -1,8 +1,8 @@
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(124, 165, 240);
     color:black;
 }
 footer{
     text-align: center;
-    background-color: darkgoldenrod;
+    background-color: rgb(255, 255, 255);
 }
