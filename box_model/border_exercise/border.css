@@ -1,0 +1,31 @@
+#solidBorder {
+    border: 5px solid black;
+}
+
+#dashedBorder {
+    border: 5px dashed orange;
+}
+
+#dottedBorder {
+    border: 5px dotted cyan;
+}
+
+#doubleBorder {
+    border: 5px double greenyellow;
+}
+
+#grooveBorder {
+    border: 5px groove palevioletred;
+}
+
+#ridgeBorder {
+    border: 5px ridge red;
+}
+
+#insetBorder {
+    border: 5px ridge fuchsia;
+}
+
+#outsetBorder {
+    border: 5px outset maroon;
+}
